@@ -55,7 +55,7 @@ list2.pop(1)
 
 # Create list of 10000 initiliazed with zeroes
 nData=20000000
-list3=['Gato volador']*nData
+list3=[[0.0, 0.05]]*nData
 list3.append(3.141592654)
 
 # Print some elements in declared lists
@@ -63,13 +63,14 @@ print(list1[1])
 #print(list2[2])
 print(list3[10000])
 print(list3[20000000])
-myVar=list3[20000000]
+#myVar=list3[20000001]
 
 list4=[]
 list4.append([0,1,2,3])
 list4.append('Hello world')
 list4.append(2.5)
-print(list4[0][2])
+print(list4[1][2],list4[1][3],list4[2])
+
 
 ##############################################
 
